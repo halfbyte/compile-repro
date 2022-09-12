@@ -33,6 +33,7 @@
     "ember-cli": "~3.26.1",
     "ember-cli-app-version": "^5.0.0",
     "ember-cli-babel": "^7.26.3",
+    "ember-cli-conditional-compile": "minichate/ember-cli-conditional-compile#32da67e50f5b47afce59f7534a03fefe777410dd",
     "ember-cli-dependency-checker": "^3.2.0",
     "ember-cli-htmlbars": "^5.7.1",
     "ember-cli-inject-live-reload": "^2.0.2",

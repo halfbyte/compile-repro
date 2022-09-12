@@ -21,6 +21,14 @@ module.exports = function (environment) {
       // Here you can pass flags/options to your application instance
       // when it is created
     },
+    featureFlags: {
+      ENABLE_FOO: true,
+      ENABLE_BAR: false,
+    },
+    includeDirByFlag: {
+      ENABLE_FOO: [],
+      ENABLE_BAR: ['**/flagged/*'],
+    },
   };
 
   if (environment === 'development') {

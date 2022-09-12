@@ -19,8 +19,10 @@
 /npm-debug.log*
 /testem.log
 /yarn-error.log
+.tool-versions
 
 # ember-try
 /.node_modules.ember-try/
 /bower.json.ember-try
 /package.json.ember-try
+
